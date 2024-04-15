@@ -9,6 +9,19 @@ echo "<p>Comment out the require statements underneath to see the output of the 
  * --------------------------------------------------------------
  */
 
+
+/**
+ * ----------------------------------------------
+ * Singly Linked List Initialization and usage.
+ * --------------------------------------------
+ * 
+ * @method prepend
+ * @method append
+ * @method insertAtIndex
+ * @method delete
+ */
+// require "DataStructures/LinkedList/index.php";
+
 /**
  * ----------------------------------------------
  * Doubly Linked List Initialization and usage.
