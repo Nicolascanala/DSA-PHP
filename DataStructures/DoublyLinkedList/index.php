@@ -18,4 +18,7 @@ $l->append(0);
 $l->append(1);
 $l->prepend(5);
 $l->insertAfter(6, 2);
-dd($l);
+
+echo '<pre>';
+print_r($l);
+echo '</pre>';

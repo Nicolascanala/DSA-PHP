@@ -1,7 +1,5 @@
 <?php
 
-require_once __DIR__ . "/../vendor/autoload.php";
-
 echo "<h1>Welcome to DSA in PHP!</h1>";
 echo "<p>Comment out the require statements underneath to see the output of the DSA in action.</p>";
 
@@ -76,7 +74,7 @@ echo "<p>Comment out the require statements underneath to see the output of the 
 
 /**
  * ------------
- * BFD Usage.
+ * BFS Usage.
  * ----------
  */
 // require "Algorithms/BFS/index.php";

@@ -22,4 +22,4 @@ $tree->insert(new BSTNode(3));
 $tree->remove(2);
 
 $tree->display();
-dump($tree->search(6));
+var_dump($tree->search(6));

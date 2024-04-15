@@ -8,4 +8,7 @@ require "QuickSort.php";
  * -----------------
  */
 $list = [4, 2, 6, 9, 8, 1, 3, 5, 7];
-dd(quickSort($list));
+
+echo '<pre>';
+print_r(quickSort($list));
+echo '</pre>';

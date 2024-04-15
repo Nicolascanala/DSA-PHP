@@ -17,16 +17,16 @@ require "Stack.php";
  * @method clear
  */
 $stack = new Stack([]);
-dump($stack->isEmpty());
+var_dump($stack->isEmpty());
 $stack->push(1);
 $stack->push(2);
 $stack->push(3);
 $stack->push(4);
 $stack->push(5);
 $stack->pop();
-dump($stack->peek());
-dump($stack->isEmpty());
-dump($stack->length());
+var_dump($stack->peek());
+var_dump($stack->isEmpty());
+var_dump($stack->length());
 // $stack->reverse();
 // $stack->clear();
 $stack->print();

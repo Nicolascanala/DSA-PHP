@@ -14,4 +14,4 @@ $graph = [
     'I' => [],
 ];
 
-dump(bfs($graph, 'A', 'H'));
+var_dump(bfs($graph, 'A', 'H'));

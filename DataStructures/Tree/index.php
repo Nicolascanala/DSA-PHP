@@ -10,4 +10,4 @@ require "Tree.php";
  * @method buildTree
  * @method printTree
  */
-dd(buildTree()->printTree());
+var_dump(buildTree()->printTree());

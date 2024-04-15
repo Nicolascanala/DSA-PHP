@@ -48,7 +48,9 @@ class BinarySearchTree
     {
         if ($root !== null) {
             $this->displayHelper($root->left);
-            dump($root->data);
+            echo "<pre>";
+            print_r($root->data);
+            echo "</pre>";
             $this->displayHelper($root->right);
         }
     }
@@ -76,7 +78,7 @@ class BinarySearchTree
         if ($this->search($data)) {
             $this->removeHelper($this->root, $data);
         } else {
-            dump($data . " could not be found.");
+            var_dump($data . " could not be found.");
         }
     }
 
